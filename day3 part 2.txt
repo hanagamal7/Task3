@@ -1,0 +1,25 @@
+What’s Enum data type, when is it used? And name three common built-in enums used frequently?
+
+Enum (Enumeration) Definition:
+An enum is a value type in C# that allows you to define a set of named constants. It improves code readability and type safety by limiting variables to predefined values.
+
+When to Use:
+Enums are used when you have a collection of related constants, such as states, options, or categories, making the code more understandable and maintainable.
+
+Three Common Built-in Enums:
+
+ConsoleColor – Defines colors for text and background in the console.
+DayOfWeek – Represents the days of the week.
+FileAccess – Specifies access levels (Read, Write, ReadWrite) for file operations.
+3. What are scenarios to use string vs StringBuilder?
+
+Use string when:
+
+You are working with small and infrequent modifications (e.g., a single concatenation).
+The immutability of string provides safety, such as in multi-threaded applications.
+Performance is not critical, like in one-time transformations or small-scale operations.
+Use StringBuilder when:
+
+You perform numerous modifications (e.g., appending, replacing, or inserting).
+Optimizing performance for large-scale string operations is essential.
+You need dynamic string construction (e.g., building log messages in a loop).
